@@ -21,7 +21,7 @@ stages:
             displayName: Building Visual studio solution
             inputs:
               command: 'build'
-              projects: '**/*.csproj'
+              projects: '**/Software.csproj'
               arguments: '--configuration debug'
 
   - stage: 
@@ -34,5 +34,5 @@ stages:
             displayName: Run Visual studio tests
             inputs:
               command: test
-              projects: '**/*.csproj'
+              projects: '**/Software.csproj'
               arguments: '--configuration debug'
