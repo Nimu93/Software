@@ -4,7 +4,13 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Software", "Software\Software.csproj", "{6FE0A46A-83D2-4A7A-8DE4-4217A48C248B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{CFD8C8EA-49C0-4704-AB3A-BC3A88BD20DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{CFD8C8EA-49C0-4704-AB3A-BC3A88BD20DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{90D54A2A-A472-41AF-A9AF-122C10628CDB}"
+	ProjectSection(SolutionItems) = preProject
+		..\S00244753.github.io\CSSfile.css = ..\S00244753.github.io\CSSfile.css
+		..\S00244753.github.io\index.html = ..\S00244753.github.io\index.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
