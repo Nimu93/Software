@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Testing</title>
+    <link rel="stylesheet" type="text/css" href="CSSfile.css">
+    <script>
+        function CalcPremium() {
+            var age = document.getElementById("age").value;
+            var location = document.getElementById("location").value;
+            var premium;
+            if (location == "rural")
+            {
+                if ((age >= 18) && (age < 30))
+                {
+                    premium = 5.0;
+                }
+                else
+                {
+                    if (age >= 31)
+                    {
+                        premium = 2.5;
+                    }
+                    else
+                    {
+                        premium = 0.0;
+                    }
+                }
+            }
+            else
+            {
+                if (location == "urban")
+                {
+                    if ((age >= 18) && (age <= 35))
+                    {
+                        premium = 6.0;
+                    }
+                    else {
+                        if (age >= 36)
+                        {
+                            premium = 5.0;
+                        }
+                        else
+                        {
+                            premium = 0.0;
+                        }
+                    }
+                }
+                else
+                {
+                    premium = 0.0;
+                }
+            }
+            if (age >= 50)
+            {
+                premium = premium * 0.9;
+            }
+            document.getElementById("result").innerHTML = premium;
+        }
+
+    </script>
+</head>
+<body>
+    <header>
+        <h1 class="title">Insurance Service</h1>
+    </header>
+    <h3 class="basicText">Calculate premium</h3>
+    <table>
+        <tr>
+            <td><h4>Age</h4></td>
+            <td><h4>Location</h4></td>
+        </tr>
+    </table>
+    
+    <input style="align-content:center" type="number" id="age" name="age" step="1">
+    <input type="text" id="location" name="location" />
+    <button class="button" onclick="CalcPremium()">Run Test</button>
+    <h4>Result:</h4>
+    <h4 id="result"></h4>
+</body>
+</html>
