@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\utilisateur\\Source\\Repos\\Software\\SeleniumTests\\SeleniumTests.csproj": {}
+    "C:\\Users\\utilisateur\\source\\repos\\Software\\SeleniumTests\\SeleniumTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\utilisateur\\Source\\Repos\\Software\\SeleniumTests\\SeleniumTests.csproj": {
+    "C:\\Users\\utilisateur\\source\\repos\\Software\\SeleniumTests\\SeleniumTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utilisateur\\Source\\Repos\\Software\\SeleniumTests\\SeleniumTests.csproj",
+        "projectUniqueName": "C:\\Users\\utilisateur\\source\\repos\\Software\\SeleniumTests\\SeleniumTests.csproj",
         "projectName": "SeleniumTests",
-        "projectPath": "C:\\Users\\utilisateur\\Source\\Repos\\Software\\SeleniumTests\\SeleniumTests.csproj",
+        "projectPath": "C:\\Users\\utilisateur\\source\\repos\\Software\\SeleniumTests\\SeleniumTests.csproj",
         "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utilisateur\\Source\\Repos\\Software\\SeleniumTests\\obj\\",
+        "outputPath": "C:\\Users\\utilisateur\\source\\repos\\Software\\SeleniumTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",

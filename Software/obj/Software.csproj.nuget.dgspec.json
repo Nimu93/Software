@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\utilisateur\\Source\\Repos\\Software\\Software\\Software.csproj": {}
+    "C:\\Users\\utilisateur\\source\\repos\\Software\\Software\\Software.csproj": {}
   },
   "projects": {
-    "C:\\Users\\utilisateur\\Source\\Repos\\Software\\Software\\Software.csproj": {
+    "C:\\Users\\utilisateur\\source\\repos\\Software\\Software\\Software.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utilisateur\\Source\\Repos\\Software\\Software\\Software.csproj",
+        "projectUniqueName": "C:\\Users\\utilisateur\\source\\repos\\Software\\Software\\Software.csproj",
         "projectName": "Software",
-        "projectPath": "C:\\Users\\utilisateur\\Source\\Repos\\Software\\Software\\Software.csproj",
+        "projectPath": "C:\\Users\\utilisateur\\source\\repos\\Software\\Software\\Software.csproj",
         "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utilisateur\\Source\\Repos\\Software\\Software\\obj\\",
+        "outputPath": "C:\\Users\\utilisateur\\source\\repos\\Software\\Software\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",

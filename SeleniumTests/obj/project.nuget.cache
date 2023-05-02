@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aS9PbqG52wHddbPHNjQjCLjRSdrXU9oKwKinYPg7rAPW4Ed8Rw1L7HP6NHkdImhJKihPS8DEL2WbVBJ9tWxg1Q==",
+  "dgSpecHash": "zl5id4RVHykBgaOKZLixWnD9N6tCwxXpjKyVVWGati/Nkg1g3zAOi1Mj/egP9giFJqMwc08mMohTheEPQVNgHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\utilisateur\\Source\\Repos\\Software\\SeleniumTests\\SeleniumTests.csproj",
+  "projectFilePath": "C:\\Users\\utilisateur\\source\\repos\\Software\\SeleniumTests\\SeleniumTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\utilisateur\\.nuget\\packages\\microsoft.testplatform\\17.5.0\\microsoft.testplatform.17.5.0.nupkg.sha512",
     "C:\\Users\\utilisateur\\.nuget\\packages\\mstest.testframework\\3.0.2\\mstest.testframework.3.0.2.nupkg.sha512",
