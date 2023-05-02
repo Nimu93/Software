@@ -1,0 +1,28 @@
+body {
+    background-color: #2A2F4F;
+}
+.title {
+    color: #E5BEEC;
+    text-align: center;
+}
+.basicText {
+    color: #917FB3;
+    margin: 5px 15px 10px 15px;
+}
+h4 {
+    color: #917FB3;
+    margin:0px 0px 2px 0px;
+}
+.button {
+    background-color: #2A2F4F;
+    color: #E5BEEC;
+    text-align:center;
+    
+}
+table {
+    border: 0px solid black;
+    margin:0px 0px 0px 65px
+}
+td{
+    width:150px;
+}
