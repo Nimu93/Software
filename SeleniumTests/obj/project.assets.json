@@ -8,10 +8,14 @@
       "MSTest.TestFramework/3.0.2": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+          "lib/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+          "lib/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
+            "related": ".xml"
+          }
         },
         "resource": {
           "lib/net6.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
@@ -61,10 +65,14 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Selenium.WebDriver/4.9.0": {
@@ -883,19 +891,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\valgi\\.nuget\\packages\\": {}
+    "C:\\Users\\utilisateur\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valgi\\Desktop\\Superieur\\Spe\\S4\\Software\\SoftwareAssignement\\SeleniumTests\\SeleniumTests.csproj",
+      "projectUniqueName": "C:\\Users\\utilisateur\\Source\\Repos\\Software\\SeleniumTests\\SeleniumTests.csproj",
       "projectName": "SeleniumTests",
-      "projectPath": "C:\\Users\\valgi\\Desktop\\Superieur\\Spe\\S4\\Software\\SoftwareAssignement\\SeleniumTests\\SeleniumTests.csproj",
-      "packagesPath": "C:\\Users\\valgi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valgi\\Desktop\\Superieur\\Spe\\S4\\Software\\SoftwareAssignement\\SeleniumTests\\obj\\",
+      "projectPath": "C:\\Users\\utilisateur\\Source\\Repos\\Software\\SeleniumTests\\SeleniumTests.csproj",
+      "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\utilisateur\\Source\\Repos\\Software\\SeleniumTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\valgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -944,7 +952,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -953,7 +962,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
